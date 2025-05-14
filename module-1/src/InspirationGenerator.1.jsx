@@ -1,6 +1,6 @@
 import * as React from "react";
-import quotes from "./utils/quotes";
 import FancyText from "./FancyText";
+import quotes from "./utils/quotes";
 
 export default function InspirationGenerator({ children }) {
   const [index, setIndex] = React.useState(0);
