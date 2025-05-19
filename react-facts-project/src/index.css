@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ancizar Serif", serif;
+  background-color: #000;
+  color: #fff;
+}
+
+ul > li {
+  margin: 10px;
+}
+
+ul > li::marker {
+  color: blue;
+  font-size: 1.2rem;
+}

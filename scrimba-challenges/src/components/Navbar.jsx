@@ -15,6 +15,7 @@ const Navbar = () => {
   const logoImg = {
     width: "50px",
   };
+
   return (
     <>
       <header style={header}>
