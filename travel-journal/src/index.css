@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+/* Header section */
+
+header {
+  height: 10vh;
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.globe-image {
+  width: 30px;
+}
+
+header > span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Mid section */
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 4rem;
+  margin-bottom: 40px;
+}
+
+.country {
+  letter-spacing: 0.4rem;
+}
+
+.location-section {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.location-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.location {
+  display: flex;
+  gap: 15px;
+}
+
+.place-name {
+  font-size: 2rem;
+}
+
+.japan-image {
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.location-image {
+  width: 20px;
+}
+
+.last-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.date {
+  font-weight: bold;
+}
+
+.description {
+  word-spacing: 5px;
+}
