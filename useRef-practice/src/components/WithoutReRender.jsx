@@ -4,7 +4,7 @@ const WithoutReRender = () => {
   const clickCount = useRef(0);
 
   const handleClick = () => {
-    clickCount.current = clickCount.current + 1;
+    clickCount.current++;
     console.log("clicked", clickCount.current, "times");
     alert(`You clicked ${clickCount.current} times`);
   };
